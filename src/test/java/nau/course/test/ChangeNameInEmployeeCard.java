@@ -81,7 +81,7 @@ public class ChangeNameInEmployeeCard {
                 "buttonFirst buttonLast']")).click();
 /*!!!! непонятное поведение !!!!!
 * без следующих трх строк элементы не находятся, несмотря на
-* то, что эти строки написаны ранее( строки 48,52,56)
+* то, что эти строки написаны ранее( строки 47,51,55)
  */
         textFildFamily =driver.findElement(By.id("gwt-debug-lastName-value"));
         textFildName= driver.findElement(By.id("gwt-debug-firstName-value"));
